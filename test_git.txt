@@ -1,0 +1,26 @@
+本地分支跟踪服务器分支：
+git branch --set-upstream-to=origin/远程分支 本地分支
+
+拉取远程分支
+git pull origin 远程分支
+
+取消快速合并分支：
+git merge --no-ff -m 'xxx' 分支名
+
+创建版本
+git commit -m 'xxxx'
+
+添加到缓存区
+git add file_name
+
+创建并转到分支
+git branch -b dev
+
+取消添加到缓存区的操作
+git reset HEAD file_name 
+
+取消修改操作
+git checkout -- file_name
+
+对比版本之间的修改
+git diff HEAD -- file_name
